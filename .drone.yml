@@ -14,8 +14,8 @@ steps:
   - name: build-image
     image: plugins/docker
     settings:
-      repo: allovince/drone-ci-demo
-      username: allovince
+      repo: vavere/drone-demo
+      username: vavere
       password:
         from_secret: DOCKER_PASS
       auto_tag: true
